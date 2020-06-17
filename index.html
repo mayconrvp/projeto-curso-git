@@ -3,36 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>Curso de Git e GitHub</title>
+	<title>Curso de Git e GitHub</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <h2>Minha Página Inicial</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, placeat consectetur pariatur, corporis non, harum fuga sed quis corrupti optio assumenda architecto velit dignissimos magni eius! Fugit pariatur ipsam sed.</p>
-    <p>
-    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+	<h1>Curso git</h1>
+	<div id="conteudo">
+		<h2>Minha Página Inicial</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, placeat consectetur pariatur, corporis non, harum fuga sed quis corrupti optio assumenda architecto velit dignissimos magni eius! Fugit pariatur ipsam sed.</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
 
-    <h3>Lorem ipsum nulla sit in dolore magna id cillum est mollit. </h3>
-    <p>
-    	Branches permitem que diferentes versões do mesmo conteudo se desenvolvam ao mesmo tempo, porem de forma independente, enquanto você recombina periodicamente as contribuições de dierentes branches em um processo chamdo de "fusão" merging. (GIT Guia Prático, O'Reilly)
+		<h2>Branchs</h2>
+		<p>
+			Branches permitem que diferentes versões do mesmo conteudo se desenvolvam ao mesmo tempo, porem de forma independente, enquanto você recombina periodicamente as contribuições de dierentes branches em um processo chamdo de "fusão" merging. (GIT Guia Prático, O'Reilly)
 
-    	git branch
+			git branch
 
-    	git checkout nomedabranch <!-- trocar branch-->
-    	bit branch -B nomedaBranch <!--deletar branch-->
-    	git branch nomeDaBranch (criar) <!--criar branch-->
-    	git checkout -b institucional <!--cria e altera para a branch criada-->
-    </p>
+			git checkout nomedabranch <!-- trocar branch-->
+			bit branch -B nomedaBranch <!--deletar branch-->
+			git branch nomeDaBranch (criar) <!--criar branch-->
+			git checkout -b institucional <!--cria e altera para a branch criada-->
+		</p>
 
-    <h3>Continuação de Branchs</h3>
-    <p>
-    	git push origin nomeDaBranch <!--enviar branch do repositório local para o repositorio remoto-->
-    	git merge nomeDaBranch <!--mesclar alterações de uma branch a uma branch ativa, por exemplo a branch master-->
-    </p>
+		<h2>Continuação de Branchs</h2>
+		<p>
+			$ git push origin &lt;nomeDaBranch&gt; <br><!--enviar branch do repositório local para o repositorio remoto-->
+			$ git merge &lt;nomeDaBranch&gt; <!--mesclar alterações de uma branch a uma branch ativa, por exemplo a branch master-->
+		</p>
+	</div>
 </body>
 </html>
